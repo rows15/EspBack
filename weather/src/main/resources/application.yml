@@ -8,3 +8,16 @@ spring:
 eureka:
   instance:
     hostname: localhost
+
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+info:
+  author: Tulio L. Viglione
+  mail: tulio.l.viglione@gmail.com
+  celular: (xx)xxxx-xxxx
